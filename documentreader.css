@@ -1,0 +1,11 @@
+body {
+  background-image: url(https://images.pexels.com/photos/357514/pexels-photo-357514.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.card {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 30px;
+}
+.card.button {
+  border-radius: 30px;
+}
