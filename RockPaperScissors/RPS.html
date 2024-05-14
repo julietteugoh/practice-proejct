@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissors</title>
+    <script
+      src="https://kit.fontawesome.com/9bf3c4885f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="RPS.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="scores">
+        <p>Computer: <span id="Computer_Score">0 </span></p>
+        <p>
+          You:
+          <span id="User_Score"> 0</span>
+        </p>
+        <div class="weapons">
+          <button>
+            <i class="far fa-hand-rock"></i>
+          </button>
+          <button>
+            <i class="far fa-hand-paper"></i>
+          </button>
+          <button>
+            <i class="far fa-hand-scissors"></i>
+          </button>
+        </div>
+        <div class="details">
+          <p id="User_Choice"></p>
+          <p id="Comp_Choice"></p>
+          <p id="Result"></p>
+        </div>
+    </div>
+    <script src="RPS.js"></script>
+  </body>
+</html>
